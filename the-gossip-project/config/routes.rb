@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'home/gossip_list'
   get 'welcome/:first_name', to: 'welcome#first_name'
   get 'static_pages/team'
   get 'static_pages/contact'
